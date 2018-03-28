@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Minha primeira página</title>
+    <link href="estilo.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>H1</h1>
+    <h1>novo texto</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6>
+    <P>Este é meu paragrafo bla bla bla bla bla bla <em>bla bla bla</em>
+      <i>pular linha!!</i> <br /> bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla <b>bla bla bla</b></P>
+    <ul>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+    </ul>
+    <img src="http://www.labgeolivre.ufpr.br/wp-content/uploads/2018/03/cropped-capa3.png" width="50%""/>
+    <video src="Why all world maps are wrong.mp4" width="50%" controls></video>
+    <nav>
+      <a href="index2.html" >Abrir minha segunda página</a>
+    </nav>
+
+    <script>
+      console.log("Olá mundo!");
+      document.write("Olá mundo 2!");
+      var numero = 10;
+      if(numero > 10) {
+        document.write("numero igual a 10");
+      } else {
+        document.write("numero diferente de 10<br>");
+      }
+
+      function calcularMedia(primeiro, segundo) {
+        return (primeiro + segundo) / 2;
+      }
+
+      document.write(calcularMedia(numero, 20));
+
+      for(var i = 0; i <= 10; i++) {
+        document.write("<br>Passou pelo valor: " + i);
+      }
+
+      
+    </script>
+  </body>
+</html>
